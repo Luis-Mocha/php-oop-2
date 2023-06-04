@@ -89,7 +89,7 @@ foreach ($arrayToy as $elem) {
 $arrayBed = [
     $bed1 = new Bed(
         0,
-        'bed Memory Foam',
+        'Bed Memory Foam',
         'https://picsum.photos/id/176/300/200',
         [new Category('cane')],
         'marrone',
