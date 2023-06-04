@@ -12,6 +12,4 @@ include_once __DIR__. '/partials/main.php';
 
 include_once __DIR__ . '/partials/htmlBottom.php';
 
-var_dump($prova);
-
 ?>
