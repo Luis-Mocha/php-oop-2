@@ -24,7 +24,7 @@
                             } ?> 
                         </div>
 
-                        <div class="card-text"> Prezzo: <?php echo $elem->price ?> € </div>
+                        <div class="card-text text-end fw-bold fst-italic"> <?php echo $elem->price ?> € </div>
 
                     </div>
                 </div>
