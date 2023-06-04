@@ -85,7 +85,7 @@ foreach ($arrayToy as $elem) {
 // var_dump($arrayToy);
 
 
-// --- ARRAY CUCCIE ---
+// --- ARRAY CUCCE ---
 $arrayBed = [
     $bed1 = new Bed(
         0,
