@@ -32,5 +32,10 @@
             <?php } ?>
         </div>
 
+        <!-- SEZIONE TOYS -->
+        <div class="card-container">
+            
+        </div>
+
     </div>
 </main>
