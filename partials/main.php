@@ -2,6 +2,7 @@
     <div class="container">
 
         <!-- SEZIONE FOOD -->
+        <h2 class="text-uppercase text-center fs-1">Food</h2>
         <div class="card-container">
 
             <?php foreach ($arrayFood as $elem) { ?>
@@ -34,6 +35,7 @@
         </div>
 
         <!-- SEZIONE TOYS -->
+        <h2 class="text-uppercase text-center fs-1">Giocattoli</h2>
         <div class="card-container">
 
             <?php foreach ($arrayToy as $elem) { ?>
@@ -70,6 +72,7 @@
         </div>
 
         <!-- SEZIONE CUCCIE -->
+        <h2 class="text-uppercase text-center fs-1">Cucce</h2>
         <div class="card-container">
 
             <?php foreach ($arrayBed as $elem) { ?>
