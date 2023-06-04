@@ -77,5 +77,8 @@ $arrayToy = [
     ),
 ];
 
-var_dump($arrayToy);
+foreach ($arrayToy as $elem) {
+    $elem->setPrice();
+};
+// var_dump($arrayToy);
 ?>
