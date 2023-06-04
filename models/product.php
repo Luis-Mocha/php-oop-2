@@ -5,7 +5,7 @@ class Product {
     public $name;
     public $img;
     public $category;
-    protected $price;
+    public $price;
     protected $discount;
 
     public function __construct($_id, $_name, $_img, $_category) {
