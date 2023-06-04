@@ -15,8 +15,4 @@ class Product {
         $this->category = $_category;
     }
 
-    public function setPrice($_price) {
-        $this->price = $_price;
-    }
-
 }
