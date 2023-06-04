@@ -4,6 +4,8 @@ include_once __DIR__ . "/../models/product.php";
 include_once __DIR__ . "/../models/category.php";
 include_once __DIR__ . "/../models/food.php";
 include_once __DIR__ . "/../models/toy.php";
+include_once __DIR__ . "/../models/bed.php";
+
 
 
 
@@ -52,7 +54,7 @@ $arrayToy = [
     $toy1 = new Toy(
         0,
         'Palla Rimbalzante',
-        'https://picsum.photos/id/173/300/200',
+        'https://picsum.photos/id/659/300/200',
         [new Category('cane'), new Category('gatto')],
         'gomma',
         'm'
@@ -70,7 +72,7 @@ $arrayToy = [
     $toy3 = new Toy(
         2,
         'Frisbee Resistente',
-        'https://picsum.photos/id/175/300/200',
+        'https://picsum.photos/id/433/300/200',
         [new Category('cane')],
         'plastica',
         'xl'
@@ -81,4 +83,41 @@ foreach ($arrayToy as $elem) {
     $elem->setPrice();
 };
 // var_dump($arrayToy);
+
+
+// --- ARRAY CUCCIE ---
+$arrayBed = [
+    $bed1 = new Bed(
+        0,
+        'bed Memory Foam',
+        'https://picsum.photos/id/176/300/200',
+        [new Category('cane')],
+        'marrone',
+        'xl'
+    ),
+    
+    $bed2 = new Bed(
+        1,
+        'Casetta per Gatti',
+        'https://picsum.photos/id/177/300/200',
+        [new Category('gatto')],
+        'beige',
+        's'
+    ),
+    
+    $bed3 = new Bed(
+        2,
+        'Cuccia Rialzata',
+        'https://picsum.photos/id/178/300/200',
+        [new Category('cane')],
+        'rosso',
+        'm'
+    ),
+];
+
+foreach ($arrayBed as $elem) {
+    $elem->setPrice();
+};
+// var_dump($arrayBed);
+
 ?>
