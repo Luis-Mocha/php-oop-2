@@ -27,7 +27,11 @@
 
                             <!-- Colore (cucce) -->
                             <?php if ($elem->color) { ?>
-                                <div class="card-text"> Colore: <?php echo $elem->color ?> </div>
+                                <div class="card-text"> Colore: 
+                                    <span class="text-capitalize">
+                                        <?php echo $elem->color ?>
+                                    </span>
+                                </div>
                             <?php } ?>
                             
                             <!-- Categoria (all) -->
@@ -49,7 +53,7 @@
                                         <?php echo $elem->getDimensionText() ?>
                                     </span>
                                     <span class="text-uppercase">
-                                        ( <?php echo $elem->dimension ?> )
+                                        (<?php echo $elem->dimension ?>)
                                     </span>
                                 </div>
                             <?php } ?>
