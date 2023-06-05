@@ -41,6 +41,8 @@ class Product {
                 $this->price = 10;
             }  
         }
+
+        return $this->price;
         
     }
 
