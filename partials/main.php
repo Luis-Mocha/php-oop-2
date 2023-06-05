@@ -7,9 +7,12 @@
                 foreach ($arrayProducts[$i] as $elem) { ?>
 
                     <div class="card">
-                        <img src=" <?php echo $elem->img ?> " class="card-img-top" alt="<?php echo $elem->name . ' Immagine' ?>">
+                        <div class="px-2 text-end fst-italic bg-warning text-light rounded-top"> <?php echo get_class($elem) ?> </div>
+
+                        <img src=" <?php echo $elem->img ?> " alt="<?php echo $elem->name . ' Immagine' ?>">
+
                         <div class="card-body">
-                            <h5 class="card-title"> <?php echo $elem->name ?> </h5>
+                            <div class="card-title fs-3 fw-semibold"> <?php echo $elem->name ?> </div>
 
                             <!-- Tipo (food) -->
                             <?php if ($elem->type) { ?>
