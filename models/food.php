@@ -12,14 +12,4 @@ class Food extends Product {
         $this->quantity = $_quantity;
     }
 
-    public function setPrice() {
-        if ($this->quantity <= 200) {
-            $this->price = 2;
-        } else if ($this->quantity > 200 && $this->quantity <= 1000) {
-            $this->price = 5;
-        } else {
-            $this->price = 10;
-        }   
-    }
-
 }
