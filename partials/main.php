@@ -24,6 +24,11 @@
                             <?php if ($elem->material) { ?>
                                 <div class="card-text"> Materiale: <?php echo $elem->material ?> </div>
                             <?php } ?>
+
+                            <!-- Colore (cucce) -->
+                            <?php if ($elem->color) { ?>
+                                <div class="card-text"> Colore: <?php echo $elem->color ?> </div>
+                            <?php } ?>
                             
                             <!-- Categoria (all) -->
                             <div class="card-text"> Categoria:
