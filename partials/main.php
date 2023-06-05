@@ -45,8 +45,11 @@
                             <!-- Dimensioni (toy/bed) -->
                             <?php if ($elem->dimension) { ?>
                                 <div class="card-text"> Dimensioni:
+                                    <span class="text-capitalize">
+                                        <?php echo $elem->getDimensionText() ?>
+                                    </span>
                                     <span class="text-uppercase">
-                                        <?php echo $elem->dimension ?>
+                                        ( <?php echo $elem->dimension ?> )
                                     </span>
                                 </div>
                             <?php } ?>
