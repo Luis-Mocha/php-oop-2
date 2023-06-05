@@ -12,14 +12,4 @@ class Bed extends Product {
         $this->dimension = $_dimension;
     }
 
-    public function setPrice() {
-        if ($this->dimension == 's') {
-            $this->price = 30;
-        } else if ($this->dimension == 'm') {
-            $this->price = 50;
-        } else {
-            $this->price = 100;
-        }   
-    }
-
 }

@@ -15,7 +15,7 @@ class Product {
         $this->category = $_category;
     }
 
-    public function newPrice(){
+    public function setPrice(){
         if (get_class($this) === 'Toy') {
             if ($this->dimension == 's') {
                 $this->price = 10;

@@ -11,15 +11,5 @@ class Toy extends Product {
         $this->material = $_material;
         $this->dimension = $_dimension;
     }
-
-    public function setPrice() {
-        if ($this->dimension == 's') {
-            $this->price = 10;
-        } else if ($this->dimension == 'm') {
-            $this->price = 25;
-        } else {
-            $this->price = 50;
-        }   
-    }
-
+    
 }
