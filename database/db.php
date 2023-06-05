@@ -7,8 +7,6 @@ include_once __DIR__ . "/../models/toy.php";
 include_once __DIR__ . "/../models/bed.php";
 
 
-
-
 // --- ARRAY CIBO ---
 $arrayFood = [
     // Istanza Food 1
@@ -41,10 +39,6 @@ $arrayFood = [
     ),
 ];
 
-// uso la funzione della classe food per stabilire i prezzi di ogni istanza
-foreach ($arrayFood as $elem) {
-    $elem->setPrice();
-};
 // var_dump($arrayFood);
 
 
@@ -79,9 +73,6 @@ $arrayToy = [
     ),
 ];
 
-foreach ($arrayToy as $elem) {
-    $elem->setPrice();
-};
 // var_dump($arrayToy);
 
 
@@ -115,9 +106,11 @@ $arrayBed = [
     ),
 ];
 
-foreach ($arrayBed as $elem) {
-    $elem->setPrice();
-};
 // var_dump($arrayBed);
+
+// Creo un array contente tutti i prodotti
+$arrayProducts = [];
+array_push($arrayProducts, $arrayFood, $arrayToy, $arrayBed );
+
 
 ?>
