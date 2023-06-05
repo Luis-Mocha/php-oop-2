@@ -38,9 +38,7 @@ $arrayFood = [
         1500
     ),
 ];
-
 // var_dump($arrayFood);
-
 
 // --- ARRAY TOYS ---
 $arrayToy = [
@@ -72,9 +70,7 @@ $arrayToy = [
         'xl'
     ),
 ];
-
 // var_dump($arrayToy);
-
 
 // --- ARRAY CUCCE ---
 $arrayBed = [
@@ -105,7 +101,6 @@ $arrayBed = [
         'm'
     ),
 ];
-
 // var_dump($arrayBed);
 
 // Creo un array contente tutti i prodotti
